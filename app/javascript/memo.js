@@ -1,6 +1,6 @@
 const buildHTML = (XHR) => {
   const item = XHR.response.post; //レスポンスの中から投稿されたメモ「content」をitem変数に格納
-  //コントローラーcreate内の render json:{ post: post} と紐づいている（このファイルの９行目と連携）
+  //コントローラーcreate内の render json:{ post: post} と紐づいている（このファイルの23行目と連携）
   const html = `
     <div class="post">
       <div class="post-date">
